@@ -1,0 +1,52 @@
+
+.person1 {
+    background-color: #f1f1f1; /* Grey background color */
+    display: flex; /* Use flex layout */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between image and text */
+  }
+  
+  /* Left side containing the circular image */
+  .div-block-33 {
+    flex: 40%; /* 40% of the container width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Circular image styles */
+  .image-10-2 {
+    border-radius: 50%;
+    max-width: 67%;
+    margin: 37px;
+}
+  
+  /* Right side containing the text */
+  .div-block-34 {
+    flex: 60%; /* 60% of the container width */
+  }
+  
+  /* Text styles */
+  .text-block-15, .text-block-16, .text-block-17 {
+    color: #333; /* Text color */
+    font-size: 21px; /* Adjust font size as needed */
+    /* padding: 20px;  */
+    margin-right: 93px;
+    display: inline-block;
+    color: #3d3d3d;
+  }
+  .text-block-15 {
+    font-size: 36px;
+    font-weight: 750;
+    margin-top: 60px;
+    margin-right: 26px;
+    margin-bottom: 12px;
+    color: black;
+}
+.text-block-16{
+    font-weight: 750;
+    margin-top: 60px;
+    margin-right: 26px;
+    margin-bottom: 12px;
+    color: black;
+}

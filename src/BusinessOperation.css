@@ -1,0 +1,48 @@
+.bp {
+    display: flex; 
+    margin: 20px; 
+    /* margin-top: 56px */
+  }
+  
+  .div-block-28 {
+    flex: 1; 
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+  }
+  
+  .text-block-4 {
+    font-size: 39px; 
+    font-weight: bold; 
+    margin-bottom: 35px; 
+  }
+  
+  .text-block-8 {
+    font-weight: 300; 
+    font-size: 20px;
+  }
+  
+  .div-block-29 {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px; 
+    padding-top: 0px
+  }
+  
+  .serv_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-13 {
+  max-width: 100%; 
+  height: auto; 
+  max-height: 400px;
+  }
+  .w-layout-blockcontainer-2 {
+    display: flex;
+}  

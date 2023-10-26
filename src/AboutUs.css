@@ -1,0 +1,36 @@
+.section-97 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .div-block-4 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+  }
+  
+   h2 {
+    font-size: 42px !important;
+    line-height: 1;
+    margin-bottom: 27px;
+  } 
+  
+  p {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  
+  .w-layout-layout.quick-stack-168 {
+    display: flex;
+    justify-content: center;
+  }
+
+.h2-text{
+    margin-top: 116px !important;
+}  
+  .div-block-4 p {
+    font-size: 1.5rem; 
+    margin-top: 10px; 
+  }

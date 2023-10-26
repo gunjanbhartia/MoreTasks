@@ -1,0 +1,116 @@
+.mt-50 {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .flex-recol {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cell-11,
+  .cell-12 {
+    flex: 1;
+  }
+  .us-text {
+    padding: 80px;
+    padding-right: 0px;
+    background-color: #fff;  
+    border-radius: 5px;
+    margin-right: -104px;
+    margin-left: 131px;
+  }
+  
+  .why-heading {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .why-pera {
+    font-size: 16px;
+  }
+  .div-block-3 {
+    height: 321px;  
+    width: 1px;
+    background-image: repeating-linear-gradient(54deg, transparent, transparent 4px, #ccc 4px, #ccc 8px);
+    margin: 0 26px;
+  }
+  .div-block-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bold;
+  }
+  .us-img {
+    padding: 20px;
+    margin-left: 10px;
+  }
+  
+  .image-4 {
+    max-width: 100%; 
+    height: auto;
+    margin: 50px 55px 0px;
+  } 
+   @media (max-width: 768px) {
+    .flex-recol {
+      flex-direction: column;
+    }
+  
+    .cell-11,
+    .cell-12 {
+      width: 100%;
+    }
+  }
+  section{
+    display: flex !important;
+  }
+.us-text-2 {
+    padding: 80px;
+    padding-left: 60px;
+    background-color: #fff;  
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .why-heading-2 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .us-img-2 {
+    padding: 20px;
+    margin-left: 10px;
+  }
+  .image-4-2 {
+    max-width: 100%; 
+    height: auto;
+    margin: 50px 90px 0px;
+    margin-left: 216px;
+    margin-left: 324px;
+  } 
+  .quick-stack-161.flex-col {
+    display: flex;
+}
+.us-number-2{
+    padding-left: 148px;
+}
+.div-block{
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 49px;
+    font-weight: bold;
+
+}
+.us-img-3 {
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 319px;
+}

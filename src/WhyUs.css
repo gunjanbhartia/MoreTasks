@@ -1,0 +1,46 @@
+.service_hero-2.hero-heading-left-2 {
+    background-color: rgba(245, 247, 250, 0);
+    height: 300px;
+    background-image: url(https://uploads-ssl.webflow.com/64b0dfc0bfa43fcb05d90402/64b3afde31dc2962b5b5ee99_Rectangle%201806.png);
+    padding-top: 146px;
+    background-position: center;
+    background-size: cover;
+}
+.service_hero-2.hero-heading-left-2 {
+    padding: 215px 45px;
+    position: relative;
+    z-index: 1;
+}
+.service_hero-2 .heading-10-2 {
+    color: #fff;
+    font-size: 54px;
+}
+h1 {
+    font-size: 38px;
+    line-height: 44px;
+    /* margin-top: -40px; */
+}
+h1 {
+    font-size: 2em;
+    margin: 5px 0;
+}
+.service_hero-2 .margin-bottom-24px-2-2 {
+    max-width: 60%;
+    color: #fff;
+    margin-bottom: 24px;
+    font-size: 28px;
+    line-height: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+*, body {
+    font-family: Rajdhani, sans-serif;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+

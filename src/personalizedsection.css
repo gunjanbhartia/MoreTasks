@@ -1,0 +1,109 @@
+.personalized-startup-card {
+    /* background-color: #f2f2f2; Gray background color */
+    border-radius: 10px; 
+    /* padding: 20px;  */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .startup-card-image {
+    max-width: 66%;
+    float: left;
+    margin-right: 40px;
+    margin-top: 189px;
+    margin-left: 42px;
+    flex: 1;
+  }
+  
+  .startup-card-content {
+    max-width: 60%; /* Adjust text width as needed */
+    float: left; /* Float the text to the left */
+    flex: 1; 
+  }
+  
+  /* .personalized-startup-section {
+    margin-top: 20px; 
+  } */
+  .personalized-startup-section {
+    display: flex; /* Use flexbox for layout */
+    margin-top: 20px; /* Add spacing between sections */
+  }
+  
+  .image-container {
+    flex: 1; /* Image takes up 50% of the available space */
+    /* Additional styling for the image container */
+  }
+  
+  .text-container {
+    flex: 1; /* Text takes up 50% of the available space */
+    padding: 20px; /* Add padding to separate text from the image */
+    /* Additional styling for the text container */
+  }
+  /* Align the text to the right of the image */
+.personalized-startup-section .w-layout-cell.cell-9 {
+    flex: 1; /* Image takes up 50% of the available space */
+}
+
+.personalized-startup-section .w-layout-cell.cell-15 {
+    flex: 1; /* Text takes up 50% of the available space */
+    padding: 20px; /* Add padding to separate text from the image */
+}
+/* Align the text to the right of the image */
+.personalized-startup-card {
+    display: flex; /* Use flexbox for layout */
+}
+
+.startup-card-image {
+    flex: 1; /* Image takes up 50% of the available space */
+    max-width: 120%;
+    margin-right: 40px;
+    margin-top: 189px;
+    margin-left: 42px;
+}
+
+.startup-card-content {
+    flex: 1; /* Text takes up 50% of the available space */
+    max-width: 60%;
+}
+
+
+  .w-layout-blockcontainer{
+    display: flex;
+  }
+  .startup-card-content{
+    display: contents;
+  }
+  .w-layout-cell {
+    /* display: flex; */
+    margin-right: 35px;
+    font-size: 21px;
+
+  }
+  .w-layout-layout {
+    display: flex;
+    font-size: 20px;
+    margin: 14px 0px 0px 0px;
+    padding: 2px;
+    margin-bottom: -9px;
+  }
+  h2{
+    display: flex;
+    font-size: 30px !important;
+  }
+  .personalized-startup-section .w-layout-cell.cell-15 {
+    flex: 1 1;
+    padding: 105px;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-bottom: 150px;
+}
+/* img {
+    max-width: 95%;
+    vertical-align: middle;
+    display: inline-block;
+} */
+h4{
+display: contents;
+}

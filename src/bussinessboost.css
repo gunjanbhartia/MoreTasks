@@ -1,0 +1,32 @@
+.heading-2 {
+    position: relative; 
+    /* margin-bottom: 10px;  */
+  }
+  
+  .heading-2::after {
+    content: ""; 
+    position: absolute; 
+    bottom: -10px; 
+    left: 0; 
+    width: 640px; 
+    border-bottom: 0.09px solid #333;
+  }
+  .bussiness_boost_section img {
+    max-width: 110%; 
+    margin-top: 0px; 
+    margin-left: -50px;
+  }
+  .bussiness_boost_section {
+    text-align: left;
+    margin-left: 20px;
+    color: #333;
+  }
+  .headdding {
+    display: flex;
+    font-size: 55px !important;
+    margin-left: -26px;
+    margin-right: 66px !important;
+}
+.heading-2{
+    font-size: 37px;
+}
