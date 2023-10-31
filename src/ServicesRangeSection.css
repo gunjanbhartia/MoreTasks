@@ -65,7 +65,7 @@
     font-size: 18px;
     line-height: 1.5;
     margin-top: 35px;
-    margin-left: 30px;
+    margin-right: 30px;
     text-indent: 197px;
     margin-bottom: 35px;
     text-align: end;
@@ -80,7 +80,7 @@
     border-top: 1px solid #000;
     width: 173%;
     position: absolute;
-    left: -62%;
+    left: -71%;
     top: 100%;
     margin-top: 10px;
 }

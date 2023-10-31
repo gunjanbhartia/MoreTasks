@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -36,20 +37,20 @@ const Footer = () => {
           <div className="div-block-8">
             <div className="pillarpagesdiv">
               <div className="upper-pillar-heading">Plans & Pricing</div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/product.html">Product</a></div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/contact.html">Contact</a></div>
+              <div className="upper-pillar-content"><Link to="/product">Product</Link></div>
+              <div className="upper-pillar-content"><Link to="/contact">Contact</Link></div>
             </div>
             <div className="pillarpagesdiv">
               <div className="upper-pillar-heading">Services</div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#business-operations">Business Operations</a></div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#e-commerce-services">E commerce Services</a></div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#data-operations">Data Operations</a></div>
+              <div className="upper-pillar-content"><Link to="/services#business-operations">Business Operations</Link></div>
+              <div className="upper-pillar-content"><Link to="/services#e-commerce-services">E commerce Services</Link></div>
+              <div className="upper-pillar-content"><Link to="/services#data-operations">Data Operations</Link></div>
             </div>
             <div className="pillarpagesdiv">
               <div className="upper-pillar-heading">Services</div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#customer-services">Customer Services</a></div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#digital-management">Digital Management</a></div>
-              <div className="upper-pillar-content"><a href="https://moretasks.com/services.html#web-and-app-development">Web and App development</a></div>
+              <div className="upper-pillar-content"><Link to="/services#customer-services">Customer Services</Link></div>
+              <div className="upper-pillar-content"><Link to="/services#digital-management">Digital Management</Link></div>
+              <div className="upper-pillar-content"><Link to="/services#web-and-app-development">Web and App development</Link></div>
             </div>
           </div>
         </div>
@@ -61,9 +62,9 @@ const Footer = () => {
           </div>
           <div className="left right">
             <div className="text-block-10 right-pillar">
-              <span className="footer-link"><a href="https://moretasks.com/terms-of-services.html">Terms of services</a></span>
-              <span className="footer-link"><a href="https://moretasks.com/privacy-policy.html">Privacy Policy</a></span>
-              <span className="footer-link"><a href="https://moretasks.com/cookies.html">Cookies</a></span>
+              {/* <span className="footer-link"><Link to="https://moretasks.com/terms-of-services.html">Terms of services</Link></span> */}
+              {/* <span className="footer-link"><Link to="https://moretasks.com/privacy-policy.html">Privacy Policy</Link></span> */}
+              {/* <span className="footer-link"><Link to="https://moretasks.com/cookies.html">Cookies</Link></span> */}
             </div>
           </div>
         </div>

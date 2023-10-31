@@ -11,6 +11,7 @@ import WhyUs from './pages/WhyUs';
 // import './WhyUs.css';
 import AboutUs from './pages/AboutUs';
 // import Trial from './pages/Trial';
+import ContactUs from './pages/ContactUs';
 
 
 
@@ -26,7 +27,7 @@ function App() {
       <Route path="/product" element={<Product/>}/>
       <Route path="/why-us" element={<WhyUs/>}/>
       <Route path="/about-us" element={<AboutUs/>}/>
-      {/* <Route path="/trial" element={<Trial/>}/> */}
+      <Route path="/contact-us" element={<ContactUs/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

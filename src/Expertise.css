@@ -14,14 +14,16 @@
   .cell-12 {
     flex: 1;
   }
+
+  /* modified */
   .us-text {
     padding: 80px;
-    padding-right: 0px;
-    background-color: #fff;  
+    /* padding-right: 0px; */
+    background-color: #fff;
     border-radius: 5px;
-    margin-right: -104px;
-    margin-left: 131px;
-  }
+    /* margin-right: -104px; */
+    /* margin-left: 131px; */
+}
   
   .why-heading {
     font-size: 45px;
@@ -70,12 +72,14 @@
   section{
     display: flex !important;
   }
+  /* modified */
 .us-text-2 {
-    padding: 80px;
-    padding-left: 60px;
+  padding: 80px 0px;
+  padding-right: 20px;
+  padding-left: 11px;
     background-color: #fff;  
     border-radius: 5px;
-    margin-right: 10px;
+  
   }
   .why-heading-2 {
     font-size: 45px;
@@ -86,18 +90,19 @@
     padding: 20px;
     margin-left: 10px;
   }
+  /* modified */
   .image-4-2 {
     max-width: 100%; 
     height: auto;
     margin: 50px 90px 0px;
-    margin-left: 216px;
-    margin-left: 324px;
+    /* margin-left: 216px; */
+    /* margin-left: 324px; */
   } 
   .quick-stack-161.flex-col {
     display: flex;
 }
 .us-number-2{
-    padding-left: 148px;
+    padding-left: 93px;
 }
 .div-block{
     width: 50px;
@@ -110,7 +115,6 @@
 
 }
 .us-img-3 {
-  padding: 20px;
-  margin-left: 30px;
-  margin-right: 319px;
+  padding: 18px;
+  margin-left: 16px;
 }

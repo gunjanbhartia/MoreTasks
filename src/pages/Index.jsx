@@ -68,7 +68,9 @@ const Index = () => {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div className="hero-wrapper-3" style={{ marginTop: '200px' }} >
+                <div className="hero-wrapper-3" 
+                // style={{ marginTop: '200px' }}
+                 >
                     <div className="hero-card">
                         <div className="hero-text">
                             <h2>Game-changing shift in customer support with AI.</h2>

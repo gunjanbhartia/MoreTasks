@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -9,15 +10,15 @@ function Navbar() {
             <img src="https://moretasks.com/images/moretask-logo.webp" alt="logo" />
           </a>
           <ul className="nav-menu">
-            <li><a href="https://moretasks.com/">Home</a></li>
-            <li><a href="https://moretasks.com/services.html">Services</a></li>
-            <li><a href="https://moretasks.com/product.html">Product</a></li>
-            <li><a href="https://moretasks.com/why-us.html">Why Us?</a></li>
-            <li><a href="https://moretasks.com/about-us.html">About Us</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/product">Product</Link></li>
+            <li><Link to="/why-us">Why Us?</Link></li>
+            <li><Link to="/about-us">About Us</Link></li>
           </ul>
           <ul className="contact">
             <li className="nav-button-wrapper">
-              <a href="https://moretasks.com/contact.html" className="button-primary">Contact us</a>
+              <Link to="/contact-us" className="button-primary">Contact us</Link>
             </li>
           </ul>
         </nav>
