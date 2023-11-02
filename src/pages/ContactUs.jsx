@@ -136,46 +136,11 @@
 //     //                         className="submit-button w-button"
 //     //                     />
 //     //                 </form>
-                    
 //     //             </div>
 //     //         </div>
-
 //     //         <ConsultationSection />
 //     //     </main>
 //     // )
-
-
-
-
-
-
-
-
-
-// const onSubmit = e => {
-//     e.preventDefault();
-//     const url = 'https://gmail.us10.list-manage.com/subscribe/post?u=3876bd6f5b77dba339d4ae0e2&amp;id=a8c96cfd5d&amp;v_id=5441&amp;f_id=0016c7e5f0" method="post" id="mc-embedded-subscribe-form';
-//     jsonp(`${url}&EMAIL=${email}`, { param: 'c' }, (_, data) => {
-//         const { msg, result } = data
-//         // do something with response
-//         alert(msg);
-//     });
-// };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // }
 
 // export default ContactUs
